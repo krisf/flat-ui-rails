@@ -3722,6 +3722,7 @@ body.vjs-full-window {
 /*BEGIN CUSTOM*/
 .badge {
   background-color: #1abc9c;
+  text-shadow: none;
 }
 .badge.badge-info {
   background-color: #3498db;
