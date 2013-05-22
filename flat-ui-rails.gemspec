@@ -6,8 +6,8 @@ require "flat-ui-rails/version"
 Gem::Specification.new do |gem|
   gem.name          = "flat-ui-rails"
   gem.version       = FlatUi::Rails::VERSION
-  gem.authors       = ["Jakub Arnold"]
-  gem.email         = ["darthdeus@gmail.com"]
+  gem.authors       = ["Jakub Arnold", "Kris Forbes"]
+  gem.email         = ["kris@gohosted.ca"]
   gem.description   = %q{Flat-UI bundled for Rails Asset Pipeline}
   gem.summary       = %q{Flat-UI bundled for Rails Asset Pipeline}
   gem.homepage      = "https://github.com/darthdeus/flat-ui-rails"
