@@ -164,7 +164,7 @@
   letter-spacing: -2px
   line-height: 100px
   .logo
-    background: url(../images/demo/logo-mask.png) center 0 no-repeat
+    background: asset-url("demo/logo-mask.png") center 0 no-repeat
     background-size: 256px 186px
     height: 186px
     margin: 0 auto 26px
@@ -295,7 +295,7 @@
   color: #1abc9c
 
 .demo-browser
-  background: #2c3e50 url(../images/demo/browser.png) 0 0 no-repeat
+  background: #2c3e50 asset-url("demo/browser.png") 0 0 no-repeat
   background-size: 659px 42px
   color: #ffffff
   margin: 0 41px 140px 0
@@ -320,7 +320,7 @@
       text-transform: none
 
 .demo-browser-author
-  background: url(../images/demo/browser-author.jpg) center center no-repeat
+  background: asset-url("demo/browser-author.jpg) center center no-repeat
   border: 3px solid #ffffff
   display: block
   height: 84px
@@ -364,9 +364,9 @@
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2)
   .logo
-    background-image: url(../images/demo/logo-mask-2x.png)
+    background-image: asset-url("demo/logo-mask-2x.png")
   .demo-browser
-    background-image: url(../images/demo/browser-2x.png)
+    background-image: asset-url("demo/browser-2x.png")
 
 body
   color: #34495e
@@ -2439,7 +2439,7 @@ textarea[class*="span"]
   position: relative
   text-align: center
   &.tile-hot:before
-    background: url(../images/tile/ribbon.png) 0 0 no-repeat
+    background: asset-url("tile/ribbon.png") 0 0 no-repeat
     background-size: 82px 82px
     content: ''
     height: 82px
@@ -2466,7 +2466,7 @@ textarea[class*="span"]
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2)
   .tile.tile-hot:before
-    background-image: url(../images/tile/ribbon-2x.png)
+    background-image: asset-url("tile/ribbon-2x.png")
 
 .todo
   background-color: #2c3e50
@@ -2479,7 +2479,7 @@ textarea[class*="span"]
     margin: 0
     list-style-type: none
   li
-    background: #34495e url(../images/todo/todo.png) 92% center no-repeat
+    background: #34495e asset-url("todo/todo.png") 92% center no-repeat
     background-size: 20px 20px
     cursor: pointer
     margin-top: 2px
@@ -2498,7 +2498,7 @@ textarea[class*="span"]
       border-radius: 0 0 6px 6px
       padding-bottom: 18px
     &.todo-done
-      background: transparent url(../images/todo/done.png) 92% center no-repeat
+      background: transparent asset-url("todo/done.png") 92% center no-repeat
       background-size: 20px 20px
       color: #1abc9c
       .todo-name
@@ -2553,11 +2553,11 @@ input.todo-search-field
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2)
   .todo li
-    background-image: url(../images/todo/todo-2x.png)
+    background-image: asset-url("todo/todo-2x.png")
     &.todo-done
-      background-image: url(../images/todo/done-2x.png)
+      background-image: asset-url("todo/done-2x.png")
   .todo-search
-    background-image: url(../images/todo/search-2x.png)
+    background-image: asset-url("todo/search-2x.png")
 
 footer
   background-color: #edeff1
@@ -2822,7 +2822,7 @@ body.vjs-full-window
     margin: .5em auto 0
 
 .vjs-mute-control
-  background: url(../images/video/volume-full.png) center -48px no-repeat
+  background: asset-url("video/volume-full.png") center -48px no-repeat
   background-size: 16px 64px
   cursor: pointer !important
   position: absolute
@@ -2831,11 +2831,11 @@ body.vjs-full-window
   &:hover div, &:focus div
     opacity: 0
   &.vjs-vol-0
-    background-image: url(../images/video/volume-off.png)
+    background-image: asset-url("video/volume-off.png")
     div
-      background-image: url(../images/video/volume-off.png)
+      background-image: asset-url("video/volume-off.png")
   div
-    background: #273747 url(../images/video/volume-full.png) no-repeat center 2px
+    background: #273747 asset-url("video/volume-full.png") no-repeat center 2px
     background-size: 16px 64px
     height: 18px
     -webkit-transition: opacity 0.25s
@@ -2947,7 +2947,7 @@ body.vjs-full-window
   float: right
 
 .vjs-fullscreen-control
-  background-image: url(../images/video/fullscreen.png)
+  background-image: asset-url("video/fullscreen.png")
   background-position: center -47px
   background-size: 15px 64px
   cursor: pointer !important
@@ -2958,7 +2958,7 @@ body.vjs-full-window
     opacity: 0
   div
     height: 18px
-    background: url(../images/video/fullscreen.png) no-repeat center 2px
+    background: asset-url("video/fullscreen.png") no-repeat center 2px
     background-size: 15px 64px
     -webkit-transition: opacity 0.25s
     -moz-transition: opacity 0.25s
@@ -2987,7 +2987,7 @@ body.vjs-full-window
   border-radius: 10px
 
 .login
-  background: url(../images/login/imac.png) 0 0 no-repeat
+  background: asset-url("login/imac.png") 0 0 no-repeat
   background-size: 940px 778px
   color: #ffffff
   margin-bottom: 77px
@@ -3073,7 +3073,7 @@ body.vjs-full-window
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2)
   .login
-    background-image: url(../images/login/imac-2x.png)
+    background-image: asset-url("login/imac-2x.png")
 
 .last-col
   overflow: hidden
